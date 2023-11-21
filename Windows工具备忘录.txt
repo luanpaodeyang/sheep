@@ -1,0 +1,20 @@
+
+Windows无限暂停更新天数：
+
+1. win+R 输入“regedit”打开注册表编辑器；
+2. 进入——计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings；
+3. 新建DWORD(32位)值，命名为“FlightSettingsMaxPauseDays”；
+4. 选择十进制并设置天数。
+
+
+windows10 专业版 激活工具
+1、管理员运行Windows Power Shell
+2、键入"irm https://massgrave.dev/get | iex"
+
+
+windows远程桌面连接设置允许空密码
+1、运行窗口输入“gpedit.msc”以打开本地组策略编辑；
+2、依次进入目录：计算机配置 > Windows 设置 > 安全设置 > 本地策略 > 安全选项
+3、找到“帐户：使用空密码的本地账户只允许进行控制台登录”
+4、禁用该选项
+
